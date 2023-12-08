@@ -14,7 +14,7 @@
   "name": "server_ventas",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node server.js",
+    "start": "node server.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
