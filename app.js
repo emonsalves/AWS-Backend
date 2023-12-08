@@ -14,7 +14,7 @@ const corsOptions = {
   allowedHeaders: 'Content-Type,Authorization', // Encabezados permitidos
 };
 
-// Middlewares
+// Middlewaresss
 app.use(cors(corsOptions));
 app.use(compression());
 app.use(express.json());
